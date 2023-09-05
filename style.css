@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  background-color: #94778B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-area{
+  background-color: #fff;
+  display: flex;
+  border-radius: 50px;
+  padding:4px ;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+input{
+  width: 0;
+
+  border: none;
+  border-radius: 50px;
+  transition: 0.3s ease-in;
+  outline: none;
+}
+
+.fa-solid{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.active{
+  width: 500px;
+  padding-left:10px ;
+}
+.btn-active{
+  background-color: #94778B;
+  color: #fff;
+}
